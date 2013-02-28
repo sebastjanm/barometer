@@ -10,15 +10,18 @@ INSTALL
 
 -> It is crucial that this is hard coded as a host won't be automatically assigned when accessed via cron.
 
+
 2. Database
 
 -> Install schema using the table schemas in /schema
 -> Copy application/config/database.php-default to application/config/database.php and add your database settings 
 
+
 3. Setup local constants
 
 -> Copy application/config/constants.php-default to application/config/constants.php
 -> Add your settings including SMTP server details, PROCESS_EMAIL_QUEUE_KEY (to prevent queue processing being triggered by a normal user)
+
 
 4. Barometer assets
 
